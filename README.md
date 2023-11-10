@@ -26,4 +26,4 @@ npm run lint
 
 ### Model
 
-![image](https://github.com/oliveiratales/dashboard-tasks-vue/assets/118945743/ab7b2abe-07ea-42d5-977e-de078743b474)
+![image](https://github.com/oliveiratales/dashboard-tasks-vue/assets/118945743/fab1b8da-86f7-4814-a2da-3b196ffca642)
