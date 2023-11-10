@@ -22,5 +22,6 @@ export default {
 .dashboard {
   display: flex;
   gap: 1em;
+  min-width: 1600px;
 }
 </style>

@@ -22,7 +22,7 @@
             <td>{{ chamado.descricao }}</td>
             <td>{{ chamado.localidade }}</td>
             <td>{{ chamado.responsavel }}</td>
-            <td>{{ chamado.data }}</td>
+            <td>{{ formatDate(chamado.data) }}</td>
             <td :id="getPriorityClass(chamado.prioridade)">
               {{ chamado.prioridade }}
             </td>
@@ -45,6 +45,10 @@ export default {
       pageSize: 10,
     };
   },
+  created() {
+    this.chamados = chamadosData;
+    this.chamados.sort((a, b) => new Date(b.data) - new Date(a.data));
+  },
   methods: {
     getPriorityClass(priority) {
       if (priority === "Alta") {
@@ -64,6 +68,13 @@ export default {
         return "fa-solid fa-clock";
       }
     },
+    formatDate(date) {
+      var dateExtracted = new Date(date)
+      var dateFormated = dateExtracted.toLocaleDateString('pt-BR', {
+        timeZone: 'UTC',
+      });
+      return dateFormated;
+    }
   },
 };
 </script>
@@ -103,6 +114,7 @@ td {
 }
 
 .item td {
+  padding: 0 1rem;
   text-align: center;
   font-weight: 800;
   font-size: 1.1em;
