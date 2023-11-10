@@ -26,4 +26,4 @@ npm run lint
 
 ### Model
 
-![image](https://github.com/ticajamar/DashBoard-GLPI/assets/142623697/32f1cfb7-81a1-4539-9905-389756125b9b)
+![image](https://github.com/oliveiratales/dashboard-tasks-vue/assets/118945743/ab7b2abe-07ea-42d5-977e-de078743b474)
