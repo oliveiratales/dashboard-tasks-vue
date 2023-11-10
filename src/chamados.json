@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "status": "Novo",
+    "descricao": "Problema na conexão de rede",
+    "localidade": "Sala 101",
+    "responsavel": "Carlos Silva",
+    "data": "2023-11-10",
+    "prioridade": "Alta"
+  },
+  {
+    "id": 2,
+    "status": "Atribuído",
+    "descricao": "Erro no software de contabilidade",
+    "localidade": "Departamento Financeiro",
+    "responsavel": "Ana Oliveira",
+    "data": "2023-11-11",
+    "prioridade": "Média"
+  },
+  {
+    "id": 3,
+    "status": "Atribuído",
+    "descricao": "Impressora não está imprimindo",
+    "localidade": "Sala 203",
+    "responsavel": "Pedro Santos",
+    "data": "2023-11-12",
+    "prioridade": "Alta"
+  },
+  {
+    "id": 4,
+    "status": "Novo",
+    "descricao": "Problema no acesso ao sistema interno",
+    "localidade": "Departamento de TI",
+    "responsavel": "Mariana Costa",
+    "data": "2023-11-13",
+    "prioridade": "Baixa"
+  },
+  {
+    "id": 5,
+    "status": "Atribuído",
+    "descricao": "Computador travado após atualização",
+    "localidade": "Sala 305",
+    "responsavel": "José Lima",
+    "data": "2023-11-14",
+    "prioridade": "Média"
+  },
+  {
+    "id": 6,
+    "status": "Novo",
+    "descricao": "Problema no sistema de chamados",
+    "localidade": "Departamento de TI",
+    "responsavel": "Patrícia Oliveira",
+    "data": "2023-11-15",
+    "prioridade": "Alta"
+  },
+  {
+    "id": 7,
+    "status": "Atribuído",
+    "descricao": "Teclado com teclas quebradas",
+    "localidade": "Sala 102",
+    "responsavel": "Fernando Pereira",
+    "data": "2023-11-16",
+    "prioridade": "Baixa"
+  },
+  {
+    "id": 8,
+    "status": "Aguardando",
+    "descricao": "Problema no sistema de e-mail",
+    "localidade": "Departamento de TI",
+    "responsavel": "Camila Santos",
+    "data": "2023-11-17",
+    "prioridade": "Média"
+  },
+  {
+    "id": 9,
+    "status": "Novo",
+    "descricao": "Tela do computador piscando",
+    "localidade": "Sala 204",
+    "responsavel": "Lucas Oliveira",
+    "data": "2023-11-18",
+    "prioridade": "Baixa"
+  },
+  {
+    "id": 10,
+    "status": "Aguardando",
+    "descricao": "Problema no sistema de backup",
+    "localidade": "Departamento de TI",
+    "responsavel": "Eduarda Lima",
+    "data": "2023-11-19",
+    "prioridade": "Alta"
+  }
+]
